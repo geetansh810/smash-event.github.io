@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.bookcardbody {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    margin-top: 10%;
+}
+
+.containerbook .card {
+    /* max-width: 800px; */
+    height: 400px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out
+}
+
+.containerbook .card:hover {
+    height: 80%;
+}
+.containerbook-heading{
+    width:50%;
+   ;position:relative;
+   top:5%;
+   
+   
+}
+.containerbook .card .imgContainer {
+    position: relative;
+    width: 40%;
+    height: 10%;
+    top: -50px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2)
+}
+
+.containerbook .card .imgContainer img {
+    max-width: 100%;
+    border-radius: 4px
+}
+.container-book-heading h2{
+    color:red;
+    font-weight: bold;
+}
+.containerbook .card .contentbook {
+    position: relative;
+    /* margin-top: -140px; */
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out
+}
+
+.containerbook .card:hover .contentbook {
+    visibility: visible;
+    opacity: 1;
+    /* margin-top: -40px; */
+    transition-delay: 0.3s
+}
+
+@media (max-width: 330px) {
+    .containerbook .card .imgContainer {
+        left: -2px
+    }
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px
+}
+
+.progress div {
+    background-color: red
+}
+
+.textbooknw1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.textbooknw2 {
+    color: #a5aec0
+}
+
+.stylebook{
+    width: 50%; 
+}
