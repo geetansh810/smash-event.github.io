@@ -7,7 +7,10 @@ html {
   font-size: 14px;
 }
 body {
-  background-color: black;
+  /* background-color: black; */
+  background: url(./image/black-370118_1280.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 h2 {
   margin: 5%;
@@ -67,6 +70,7 @@ nav ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 1.2rem;
+  font-weight: 500;
 }
 
 nav ul li a:hover{
@@ -146,16 +150,17 @@ body .footer .content {
 }
 
 body .footer{
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 }
 
 /* ======main header========= */
 .main-header {
-  min-height: 95vh;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./image/mainheader.jpeg);
+  min-height: 93vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(./image/Banner_Anushka\ \(4\).jpg);
+    background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -217,7 +222,7 @@ body .footer{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 10%;
+  padding-top: 25%;
 }
 .event-header-container h1 {
   font-size: 5rem;
@@ -237,6 +242,7 @@ body .footer{
   font-weight: bold;
   background: transparent;
   transition: background 0.3s;
+  font-size: 2rem;
 }
 
 .register-button:hover{
@@ -513,7 +519,9 @@ body .footer{
   justify-content: center;
 }
 .round-card {
-  background-color: black;
+  background: url(./image/abstract-1891289_1920.jpg) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
   /* margin: 10% 20%; */
 }
 
@@ -549,7 +557,9 @@ body .footer{
   min-height: 100vh;
   width: 100%;
   padding: 20px;
-  background: black !important;
+  background: url(./image/black-370118_1280.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow-x: hidden;
 }
 
@@ -703,7 +713,9 @@ body .footer{
 
 /* about event */
 .about{
-  background-color: black;
+  background: url(./image/black-370118_1280.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .about-image{
   width:100%;
@@ -987,3 +999,90 @@ body .footer .content > div .image {
     bottom: var(--distance, 10rem);
   }
 }
+
+
+
+
+
+
+
+
+
+
+.view-event{
+    color:white;
+    height:50px;
+    width:150px;
+    border:2px solid white;
+    margin-top:10%;
+    padding:10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.view-event:hover{
+    color:red;
+
+}
+
+/* .collab-posters{
+   max-height:100%;
+} */
+.collab-event-image{
+  width:100%;
+  max-height:100%;
+}
+/* .event-logo{
+    height:200px;
+    width:200px;
+}
+.event-logo-second{
+    height:150px;
+    width:150px;
+} */
+.event-logo-second img{
+    width:100%;
+
+}
+.event-logo img{
+    width:100%;
+}
+.event-description h3{
+    color:white;
+    font-weight: bold;
+    font-size:3rem;
+  }
+  .event-description p{
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+  }
+  .event-feature {
+    color:red;
+   /* margin:10px 0; */
+  }
+  .event-feature-icon{
+    background-color: red;
+    height:80px;
+    width:80px;
+    border-radius:50%;
+    padding-top: 20px; 
+    justify-content: center;
+  }
+  .collab-event{
+    /* background-color: black; */
+    background: url(./image/black-370118_1280.png);
+  }
+  .about-image{
+ height:80%;
+  width:100%;
+  }
+  .event-description{
+    color:black;
+  
+  }
+  

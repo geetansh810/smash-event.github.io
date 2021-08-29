@@ -70,11 +70,14 @@
     min-height: 3.55556em;
     padding-left: 5.11111em;
     position: relative;
-    cursor: move;
-    background-color: #fff
+    cursor: pointer;
+    background-color: #fff;
+    padding-right: 1em;
 }
 .sortable-moves:hover{
-    background-color: rgb(156, 19, 19);
+    background-color: red;
+    color: white;
+    font-weight: 500;
 }
 .sortable-moves img {
     position: absolute;
