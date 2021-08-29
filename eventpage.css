@@ -150,7 +150,15 @@ body .footer .content {
 }
 
 body .footer{
-  /* overflow: hidden; */
+  overflow: hidden;
+}
+
+.main-header{
+  background-position: center !important;
+}
+
+.event-header-container{
+  padding-top: 100% !important;
 }
 
 }
